@@ -1,19 +1,16 @@
 import { Link } from "react-router-dom";
-// import { BsDropletFill } from "react-icons/bs";
+
 const Navbar = () => {
   return (
-    <div className="navbar-bg bg-gray-400 h-20 flex justify-center items-center">
-      <div className="navbar container mx-auto flex items-center justify-between">
+    <div className="navbar-bg bg-gray-400 h-20 flex justify-center items-center ">
+      <div className="navbar container mx-auto flex items-center justify-between ">
         <div className="left flex flex-row">
-          {/* <span>
-            <BsDropletFill className="text-red-500" />
-          </span> */}
           <span className="text-2xl font-semibold text-red-500 capitalize">
             blood <span className="text-gray-100">bucket</span>{" "}
           </span>
         </div>
-        <div className="right flex items-center gap-5 text-gray-100 font-semibold text-xl ">
-          <Link to="/" className="nav-link hover:text-red-700 duration-300">
+        <div className="right flex items-center gap-5 text-gray-100 font-medium text-xl ">
+          <Link to="/" className="nav-link hover:text-red-500 duration-500">
             Home
           </Link>
           <Link

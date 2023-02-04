@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-      <div className="app h-screen">
+      <div className="app  min-h-screen ">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

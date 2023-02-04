@@ -12,8 +12,18 @@ body {
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
+.navbar-bg {
+  position: fixed;
+  z-index: 99;
+  width: 100vw;
+}
+/* .navbar {
+  position: fixed;
+  z-index: 99;
+} */
 /* slider */
 .slider {
   height: calc(100vh - 1rem);
@@ -42,7 +52,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #e609a3;
+  background-color: #dc3545;
   width: 0%;
   transition: 0.3s ease;
 }
