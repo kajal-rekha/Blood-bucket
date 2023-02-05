@@ -1,4 +1,4 @@
-const categories = [
+const galleryes = [
   {
     id: 1,
     img: "https://www.smarteyeapps.com/demo/blood-donation-charity-website-tempalte/assets/images/gallery/g1.jpg",
@@ -36,26 +36,3 @@ const categories = [
     img: "https://www.smarteyeapps.com/demo/blood-donation-charity-website-tempalte/assets/images/gallery/g10.jpg",
   },
 ];
-
-const Gallery = () => {
-  return (
-    <div className="gallery container mx-auto mt-20">
-      <h2 className=" text-gray-600 text-center text-4xl font-medium mb-10">
-        Checkout Our Gallery
-      </h2>
-      <div className="gallery-wrapper grid grid-cols-3 gap-10 py-1">
-        {categories.map((category) => (
-          <div className="gallery-wrapper w-96.2" key={category.id}>
-            <img
-              src={category.img}
-              alt=""
-              className="w-full h-96 object-cover rounded-lg hover:scale-105 duration-300"
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default Gallery;
