@@ -45,7 +45,7 @@ const Gallery = () => {
       </h2>
       <div className="gallery-wrapper grid grid-cols-3 gap-10 py-1">
         {categories.map((category) => (
-          <div className="gallery-wrapper w-96.2" key={category.id}>
+          <div className="gallery-image w-96.2" key={category.id}>
             <img
               src={category.img}
               alt=""
