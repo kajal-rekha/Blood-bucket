@@ -42,7 +42,11 @@ const Blog = () => {
             className="blog-card flex gap-5 overflow-hidden bg-white/75 rounded-2xl shadow-xl  hover:shadow-gray-300 "
             key={blog.id}
           >
-            <img src={blog.img} alt="" className="h-32 w-40 rounded-md" />
+            <img
+              src={blog.img}
+              alt=""
+              className="h-32 w-40 rounded-md hover:scale-105 duration-300"
+            />
             <div className="">
               <h4 className="text-xl font-semibold">{blog.title}</h4>
               <p>{blog.body}</p>

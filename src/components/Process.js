@@ -50,7 +50,7 @@ const Process = () => {
             <img
               src={card.img}
               alt=""
-              className="card-img overflow-hidden object-cover w-full rounded-xl border shadow-md group hover:scale-105 duration-300"
+              className="card-img overflow-hidden object-cover w-full rounded-xl border shadow-md  hover:scale-105 duration-300"
             />
 
             <div className="card-body text-center text-gray-500 mt-5">
