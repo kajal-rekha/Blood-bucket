@@ -9,7 +9,7 @@ const Navbar = () => {
             blood <span className="text-gray-100">bucket</span>{" "}
           </span>
         </div>
-        <div className="right flex items-center gap-5 text-gray-100 font-medium text-xl ">
+        <div className="right flex items-center gap-5 text-gray-100 font-medium text-lg ">
           <Link to="/" className="nav-link hover:text-red-500 duration-500">
             Home
           </Link>
