@@ -41,10 +41,10 @@ const Process = () => {
         The donation process from the time you arrive center until the time you
         leave
       </p>
-      <div className="process-wrapper grid grid-cols-4 gap-5 py-1 ">
+      <div className="process-wrapper grid grid-cols md:grid-cols-2 xl:grid-cols-4 gap-5 py-1 ">
         {cards.map((card) => (
           <div
-            className="card w-72 gap-2 mt-10  overflow-hidden bg-white/75 rounded-2xl shadow-xl p-5 shadow-gray-300 border-2 border-white"
+            className="card w-full md:w-72 gap-2 mt-10  overflow-hidden bg-white/75 rounded-2xl shadow-xl p-5 shadow-gray-300 border-2 border-white"
             key={card.id}
           >
             <img
@@ -59,7 +59,7 @@ const Process = () => {
               </h3>
               <p className="mt-2">{card.body}</p>
               <a
-                href="#"
+                href="www.google.com"
                 className="bg-gradient-to-br from-red-400 to-red-600 text-rose-50 p-3 px-8 rounded-lg text-sm uppercase font-medium tracking-wider mt-2 inline-block shadow-md shadow-rose-200 hover:shadow-lg hover:shadow-rose-300 duration-300"
               >
                 {card.cta} <span className="text-xl">➡</span>

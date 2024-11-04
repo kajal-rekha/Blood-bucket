@@ -12,7 +12,7 @@ const data = [
   },
   {
     id: 2,
-    src: "https://www.smarteyeapps.com/demo/blood-donation-charity-website-tempalte/assets/images/slider/slide-03.jpg",
+    src: "https://images.pexels.com/photos/1164531/pexels-photo-1164531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     headline:
       "Why risk behaviours,not orientation,should decide who gives blood",
     body: "Blood donation for transfusion is a vital step in the management of many clinical problems, with the two primary indications being anemia and acute blood loss. Blood donation itself is also used to primarily treat a small subset of medical conditions.",
@@ -20,7 +20,7 @@ const data = [
   },
   {
     id: 3,
-    src: "https://www.smarteyeapps.com/demo/blood-donation-charity-website-tempalte/assets/images/slider/slide-02.jpg",
+    src: "https://images.pexels.com/photos/4040561/pexels-photo-4040561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     headline: "Donate Blood & Save a Life",
     body: "Blood donation for transfusion is a vital step in the management of many clinical problems, with the two primary indications being anemia and acute blood loss. Blood donation itself is also used to primarily treat a small subset of medical conditions.",
     cta: "Contact us",

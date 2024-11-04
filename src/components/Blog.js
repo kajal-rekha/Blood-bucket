@@ -7,7 +7,7 @@ const blogs = [
   },
   {
     id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt0W1EYk_7Kb6fDg67XbSIHjGMUEGRUiTDqw&usqp=CAU",
+    img: "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=600",
     title: "Wade smith",
     body: " Blood donation is a simple and important process, with donors typically giving every 8-12 weeks. Blood donors are valued for their generosity and role in improving and saving lives.",
   },
@@ -19,7 +19,7 @@ const blogs = [
   },
   {
     id: 4,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSden0mP1zeWSqBlLQVf1prr7ziyfjb8mWa7Q&usqp=CAU",
+    img: "https://images.pexels.com/photos/6942006/pexels-photo-6942006.jpeg?auto=compress&cs=tinysrgb&w=600",
     title: "Robert json",
     body: "A blood donor is a person who voluntarily donates blood for medical purposes, helping save lives by providing essential components for transfusions. ",
   },
@@ -36,7 +36,7 @@ const Blog = () => {
           save lives!
         </p>
       </div>
-      <div className="blog-wrapper grid grid-cols-2 gap-10 pt-20">
+      <div className="blog-wrapper grid grid-cols md:grid-cols-2 gap-10 pt-20">
         {blogs.map((blog) => (
           <div
             className="blog-card flex gap-5 overflow-hidden bg-white/75 rounded-2xl shadow-xl  hover:shadow-gray-300 "

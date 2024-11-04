@@ -4,13 +4,13 @@ const Footer = () => {
       <h2 className="py-10 text-3xl text-red-500 font-semibold">
         Blood <span className="text-gray-400"> Bucket</span>
       </h2>
-      <h4>
+      <p>
         &copy; {new Date().getFullYear()} Blood Bucket | Developed by{" "}
         <a href="/" className="hover:underline duration-300">
           Kajal Rekha
         </a>{" "}
         . All right reserved.
-      </h4>
+      </p>
     </div>
   );
 };
